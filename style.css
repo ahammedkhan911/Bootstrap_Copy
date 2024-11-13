@@ -1,0 +1,112 @@
+/* Navbar Styling */
+.navbar .nav-link i {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.navbar .nav-link i:hover {
+    color: #ffffff;
+}
+
+.navbar-custom {
+    background-color: #6610f2;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #d1c4f2 !important;
+}
+
+.navbar-custom .nav-link,
+.navbar-custom .navbar-brand,
+.navbar-custom .dropdown-toggle {
+    color: white;
+}
+
+.navbar-custom .nav-link:hover,
+.navbar-custom .dropdown-item:hover {
+    color: #d1c4f2;
+}
+
+/* Masthead Notice */
+.masthead-notice {
+    background-color: #ceb736;
+    color: #241f1f;
+    font-weight: bold;
+    border: 2px solid #fafafa;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* Body Background */
+body {
+    background-image: url('/images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* General Container Styling */
+.container.my-3.d-flex.justify-content-center {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Flex Banner */
+.a-flex-banner {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.a-flex-banner:hover {
+    color: #0056b3;
+}
+
+/* Custom Heading */
+.custom-heading {
+    font-size: 3rem;
+    color: #ffffff;
+    margin-top: 40px;
+}
+
+/* General Container Styling */
+.container, .text-center {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Lead Text */
+.lead {
+    font-size: 1.25rem;
+    color: #adb5bd; /* Light gray color */
+}
+
+/* Copy Box Styling */
+.copy-box {
+    display: inline-block;
+    background-color: #212529; /* Dark background */
+    color: #f8f9fa; /* Light text */
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+/* Button Primary Styling */
+.btn-primary {
+    background-color: #6f42c1 !important;
+    border-color: #6f42c1 !important;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Button Hover Effect */
+.btn-primary:hover {
+    background-color: #861bdd !important;
+    border-color: #5a32a3 !important;
+}
